@@ -38,6 +38,12 @@ List of guides/videos/books for each technology you'll need to learn.
 
 - **[Docker for Beginners](https://docker-curriculum.com/)** by **Prakhar Srivastav** 🆓: great guide on going from 0 to 1 with Docker.
 
+### DevTools
+
+Learning how to use the DevTools is probably one of the best things you could do.
+
+- **[Chrome's DevTools](https://developers.google.com/web/tools/chrome-devtools/javascript/)**: official tutorial on how to use Chrome's DevTools.
+
 ### Checklists
 
 Some rules I think you should follow when writing code.
