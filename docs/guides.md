@@ -42,7 +42,7 @@ List of guides/videos/books for each technology you'll need to learn.
 
 Learning how to use the DevTools is probably one of the best things you could do.
 
-- **[Chrome's DevTools](https://developers.google.com/web/tools/chrome-devtools/javascript/)**: official tutorial on how to use Chrome's DevTools.
+- **[Chrome's DevTools](https://developers.google.com/web/tools/chrome-devtools/javascript/)** 🆓: official tutorial on how to use Chrome's DevTools.
 
 ### Checklists
 
