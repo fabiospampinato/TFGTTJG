@@ -1,0 +1,21 @@
+
+☐ never write messy code with the intention of refactoring it later
+☐ do not write code you don't understand
+☐ never use `var`
+☐ never use `==`, use `===` instead
+☐ use `const` if you won't redefine the variable, otherwise use `let`
+☐ use descriptive names for variables, functions, classes etc.
+☐ avoid using global variables whenever possible
+☐ do not put too many lines of code into a single file
+☐ do not put too many lines of code into a single function
+☐ do not rely on hoisting too much, define things before using them
+☐ always use `camelCase` for naming variables, functions, classes etc.
+☐ always use `//` for single-line comments
+☐ always indent the code correctly
+☐ do not write more than 1 consecutive empty line
+☐ use a consisting coding style:
+  ☐ if you want to indent with spaces, you can't also indent with tabs, and vice versa
+  ☐ if you want to indent with 4 spaces, you can't also indent with 2 spaces, and vice versa
+  ☐ if you want to write `if(foo)`, you can't also write `if ( foo )`
+  ☐ if you write an empty line at the beginning of a block you must also write one at its end, and vice versa
+  ☐ if you want to write strings like `'string'`, you can't also write them like `"string"`, and vice versa

@@ -38,6 +38,12 @@ List of guides/videos/books for each technology you'll need to learn.
 
 - **[Docker for Beginners](https://docker-curriculum.com/)** by **Prakhar Srivastav**: great guide on going from 0 to 1 with Docker.
 
+### Checklists
+
+Some rules I think you should follow when writing code.
+
+- **[javascript](/checklists/javascript.todo)**
+
 ### Help
 
 - **[MDN](https://developer.mozilla.org/en-US/)**: _the_ documentation you want, not use anything else. It documents every main technology related to web development, including JavaScript, HTML and CSS.
