@@ -8,7 +8,6 @@ This is a starting point for any beginner who wants to learn JavaScript and web 
 | Section                                  | Description                                                                 |
 | ---------------------------------------- | --------------------------------------------------------------------------- |
 | [Introduction](docs/introduction.md)     | A few words on what JavaScript is and what you can create with it           |
-| [Glossary](docs/glossary.md)             | A glossary of words used in this repo and that you'll encounter in the wild |
 | [Technologies](docs/technologies.md)     | You'll learn some of these technologies and libraries                       |
 | [Apps](docs/apps.md)                     | List of applications that I recommend installing                            |
 | [Configurations](docs/configurations.md) | Configurations and extensions that I recommend                              |
