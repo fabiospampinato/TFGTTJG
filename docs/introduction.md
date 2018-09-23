@@ -17,8 +17,8 @@ Web development is the set of all the technologies that are used for making webs
 
 Those technologies are:
 
-- **[JavaScript](https://en.wikipedia.org/wiki/JavaScript)**: it handles all the dynamism of the application
-- **[HTML](https://en.wikipedia.org/wiki/HTML)**: it handles the "structure" of your application, basically it lets you define which element of the page/app is inside which other element
+- **[JavaScript](https://en.wikipedia.org/wiki/JavaScript)**: it handles all the dynamism of the application.
+- **[HTML](https://en.wikipedia.org/wiki/HTML)**: it handles the "structure" of your application, basically it lets you define which element of the page/app is inside which other element.
 - **[CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)**: it handles the "styling" of your application, basically where elements are actually positioned, what colors they are using etc.
 
 ### Why JavaScript?
@@ -29,10 +29,10 @@ Well, JavaScript is the only language that's supported by web browsers! There ar
 
 So you can make websites with it, what else?
 
-- **[Back-ends](https://en.wikipedia.org/wiki/Front_and_back_ends)**: unless you're making a static website, you'll need a server, you can write code for that in JavaScript too thanks to Node.js
-- **Desktop apps**: thanks to Electron and Node.JS you can now write desktop apps using web technologies, you might be already using some of those, like Skype or Visual Studio Code
-- **Mobile apps**: thanks to Cordova and PhoneGap you can also write mobile apps using web technologies
-- **[CLI](https://en.wikipedia.org/wiki/Command-line_interface) apps**: applications that run in the terminal, JS is good for those too
+- **[Back-ends](https://en.wikipedia.org/wiki/Front_and_back_ends)**: unless you're making a static website, you'll need a server, you can write code for that in JavaScript too thanks to Node.js.
+- **Desktop apps**: thanks to Electron and Node.JS you can now write desktop apps using web technologies, you might be already using some of those, like Skype or Visual Studio Code.
+- **Mobile apps**: thanks to Cordova/PhoneGap you can also write mobile apps using web technologies.
+- **[CLI](https://en.wikipedia.org/wiki/Command-line_interface) apps**: applications that run in the terminal, JS is good for those too.
 
 The _big_ benefit of using JS for everything is that you can have a single codebase for all of the platforms you want to write apps for. Also you can focus on learning a single language, and be great with it, rather than learning 4 different languages and being just ok with those.
 
@@ -42,5 +42,5 @@ Keep in mind that JS is really fast on its own (Google and others invested billi
 
 Some applications for which it would be better to use a different language:
 
-- **[Operating Systems](https://en.wikipedia.org/wiki/Operating_system)**: an OS needs to talk to the actual hardware, and it's performance is of paramount importance
-- **3D-heavy games**: here you also need the most out of your hardware, most of the times writing a 3D game fully in JS isn't the best option. You're probably ok with 2D games or simple ones though
+- **[Operating Systems](https://en.wikipedia.org/wiki/Operating_system)**: an OS needs to talk to the actual hardware, and it's performance is of paramount importance.
+- **3D-heavy games**: here you also need the most out of your hardware, most of the times writing a 3D game fully in JS isn't the best option. You're probably ok with 2D games or simple ones though.
