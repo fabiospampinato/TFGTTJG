@@ -1,0 +1,62 @@
+[
+  /* TOGGLE PARTS */
+  { "key": "cmd+k cmd+a", "command": "workbench.action.toggleActivityBarVisibility" },
+  { "key": "cmd+k cmd+b", "command": "workbench.action.toggleSidebarVisibility" },
+  { "key": "cmd+k cmd+s", "command": "workbench.action.toggleStatusbarVisibility" },
+  /* MOVE LINES */
+  { "key": "ctrl+cmd+down", "command": "editor.action.moveLinesDownAction", "when": "editorTextFocus && !editorReadonly" },
+  { "key": "ctrl+cmd+up", "command": "editor.action.moveLinesUpAction", "when": "editorTextFocus && !editorReadonly" },
+  /* CURSORS */
+  { "key": "ctrl+alt+up", "command": "editor.action.insertCursorAbove", "when": "editorTextFocus" },
+  { "key": "ctrl+alt+down", "command": "editor.action.insertCursorBelow", "when": "editorTextFocus" },
+  /* TABS */
+  { "key": "ctrl+tab", "command": "workbench.action.nextEditor" },
+  { "key": "ctrl+shift+tab", "command": "workbench.action.previousEditor" },
+  /* DEBUG */
+  { "key": "ctrl+alt+`", "command": "workbench.debug.action.toggleRepl", "when": "inDebugRepl" },
+  { "key": "ctrl+alt+`", "command": "workbench.debug.action.focusRepl", "when": "!inDebugRepl" },
+  { "key": "cmd+w", "command": "workbench.debug.action.toggleRepl", "when": "inDebugRepl" },
+  { "key": "cmd+k cmd+k", "command": "workbench.debug.panel.action.clearReplAction", "when": "inDebugRepl" },
+  /* EDITOR */
+  { "key": "cmd+\\", "command": "workbench.action.splitEditor" },
+  { "key": "cmd+shift+\\", "command": "workbench.action.splitEditorOrthogonal" },
+  /* DEBUGGER */
+  { "key": "cmd+\\", "command": "workbench.action.debug.continue", "when": "inDebugMode && debugState == 'stopped'" },
+  { "key": "cmd+'", "command": "workbench.action.debug.stepOver", "when": "inDebugMode" },
+  { "key": "cmd+;", "command": "workbench.action.debug.stepInto", "when": "inDebugMode" },
+  { "key": "cmd+shift+;", "command": "workbench.action.debug.stepOut", "when": "inDebugMode" },
+  /* TERMINALS */
+  { "key": "ctrl+`", "command": "workbench.action.terminal.toggleTerminal", "when": "terminalFocus" },
+  { "key": "ctrl+`", "command": "workbench.action.terminal.focus", "when": "!terminalFocus" },
+  { "key": "cmd+k cmd+t", "command": "workbench.action.terminal.toggleTerminal", "when": "terminalFocus" },
+  { "key": "cmd+k cmd+t", "command": "workbench.action.terminal.focus", "when": "!terminalFocus" },
+  { "key": "cmd+k cmd+k", "command": "workbench.action.terminal.clear", "when": "!inDebugRepl" },
+  { "key": "ctrl+tab", "command": "workbench.action.terminal.focusNext", "when": "terminalFocus" },
+  { "key": "ctrl+shift+tab", "command": "workbench.action.terminal.focusPrevious", "when": "terminalFocus" },
+  { "key": "cmd+\\", "command": "workbench.action.terminal.splitInActiveWorkspace", "when": "terminalFocus" },
+  { "key": "cmd+n", "command": "workbench.action.terminal.new", "when": "terminalFocus" },
+  { "key": "cmd+w", "command": "workbench.action.terminal.kill", "when": "terminalFocus" },
+  { "key": "cmd+1", "command": "workbench.action.terminal.focusAtIndex1", "when": "terminalFocus" },
+  { "key": "cmd+2", "command": "workbench.action.terminal.focusAtIndex2", "when": "terminalFocus" },
+  { "key": "cmd+3", "command": "workbench.action.terminal.focusAtIndex3", "when": "terminalFocus" },
+  { "key": "cmd+4", "command": "workbench.action.terminal.focusAtIndex4", "when": "terminalFocus" },
+  { "key": "cmd+5", "command": "workbench.action.terminal.focusAtIndex5", "when": "terminalFocus" },
+  { "key": "cmd+6", "command": "workbench.action.terminal.focusAtIndex6", "when": "terminalFocus" },
+  { "key": "cmd+7", "command": "workbench.action.terminal.focusAtIndex7", "when": "terminalFocus" },
+  { "key": "cmd+8", "command": "workbench.action.terminal.focusAtIndex8", "when": "terminalFocus" },
+  { "key": "cmd+9", "command": "workbench.action.terminal.focusAtIndex9", "when": "terminalFocus" },
+  /* OTHERS */
+  { "key": "ctrl+shift+p", "command": "markdown.showPreview", "when": "editorLangId == 'markdown'" },
+  { "key": "ctrl+alt+shift+p", "command": "markdown.showPreviewToSide", "when": "editorLangId == 'markdown'" },
+  { "key": "cmd+w", "command": "workbench.action.togglePanel", "when": "problemFocus" },
+  { "key": "cmd+w", "command": "workbench.action.output.toggleOutput", "when": "inOutput" },
+  { "key": "cmd+shift+v", "command": "workbench.view.scm" },
+  { "key": "cmd+k cmd+z", "command": "workbench.action.toggleZenMode" },
+  { "key": "cmd+k cmd+m", "command": "workbench.action.editor.changeLanguageMode" },
+  { "key": "ctrl+e", "command": "editor.emmet.action.expandAbbreviation", "when": "editorTextFocus && !editorHasMultipleSelections && !editorHasSelection && !editorReadonly" },
+  { "key": "cmd+k cmd+0", "command": "editor.unfoldAll", "when": "editorTextFocus" },
+  { "key": "cmd+k cmd+0", "command": "editor.unfoldAll", "when": "editorTextFocus" },
+  { "key": "cmd+shift+u", "command": "git.sync" },
+  { "key": "f1", "command": "-workbench.action.showCommands" },
+  { "key": "f5", "command": "-workbench.action.debug.start", "when": "!inDebugMode" }
+]

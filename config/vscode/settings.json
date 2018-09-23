@@ -1,0 +1,165 @@
+{
+  /* DIFF EDITOR */
+  "diffEditor.ignoreTrimWhitespace": true,
+  /* DEBUG */
+  "debug.inlineValues": false,
+  "debug.openDebug": "neverOpen",
+  "debug.showInStatusBar": "never",
+  "debug.toolBarLocation": "floating",
+  /* EDITOR */
+  "editor.fontSize": 11,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.lightbulb.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.overviewRulerLanes": 0,
+  "editor.renderIndentGuides": true,
+  "editor.scrollBeyondLastLine": false,
+  "editor.snippetSuggestions": "top",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "off",
+  /* EXPLORER */
+  "explorer.confirmDragAndDrop": false,
+  "explorer.decorations.badges": false,
+  "explorer.openEditors.visible": 0,
+  /* EXTENSIONS */
+  "extensions.ignoreRecommendations": true,
+  "extensions.showRecommendationsOnlyOnDemand": true,
+  /* FILES */
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/.fseventsd": true,
+    "**/.Trashes": true,
+    "**/.DocumentRevisions*": true,
+    "**/.TemporaryItems": true,
+    "**/node_modules": true,
+    "**/npm-debug.log": true
+  },
+  "files.hotExit": "onExitAndWindowClose",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  /* PROBLEMS */
+  "problems.decorations.enabled": false,
+  /* SEARCH */
+  "search.useIgnoreFiles": true,
+  "search.exclude": {
+    "**/bower_components": true,
+    "**/node_modules": true,
+    "dist": true,
+    "out": true,
+    "coverage": true
+  },
+  "search.location": "sidebar",
+  /* TERMINAL */
+  "terminal.integrated.confirmOnExit": false,
+  "terminal.integrated.fontSize": 11,
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  /* WINDOW */
+  "window.openFilesInNewWindow": "off",
+  "window.restoreWindows": "all",
+  "window.title": "${activeEditorLong}${separator}${rootName}",
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 0,
+  /* WORKBENCH */
+  "workbench.activityBar.visible": false,
+  "workbench.editor.closeOnFileDelete": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.editor.showIcons": false,
+  "workbench.editor.tabCloseButton": "off",
+  "workbench.quickOpen.closeOnFocusLost": false,
+  "workbench.settings.editor": "json",
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": true,
+  /* GIT */
+  "git.confirmSync": false,
+  "git.ignoreLimitWarning": true,
+  "git.ignoreMissingGitWarning": true,
+  /* CSS */
+  "css.lint.float": "warning",
+  "css.lint.ieHack": "warning",
+  "css.lint.important": "warning",
+  "css.lint.universalSelector": "warning",
+  "css.lint.zeroUnits": "warning",
+  /* SCSS */
+  "scss.lint.float": "warning",
+  "scss.lint.ieHack": "warning",
+  "scss.lint.important": "warning",
+  "scss.lint.universalSelector": "warning",
+  "scss.lint.zeroUnits": "warning",
+  /* HTML */
+  "html.format.endWithNewline": true,
+  "html.format.extraLiners": "",
+  "html.format.indentInnerHtml": true,
+  "html.format.wrapLineLength": 0,
+  "html.suggest.angular1": false,
+  "html.suggest.ionic": false,
+  /* JAVASCRIPT */
+  "javascript.suggestionActions.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  /* TYPESCRIPT */
+  "typescript.autoImportSuggestions.enabled": false,
+  "typescript.tsc.autoDetect": "off",
+  "typescript.suggestionActions.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  /* DOCKER */
+  "docker.showExplorer": false,
+  /* VS LIVE SHARE */
+  "liveshare.showInStatusBar": "whileCollaborating",
+  /* HIGHLIGHT */
+  "highlight.regexFlags": "gi",
+  "highlight.regexes": {
+    "((?:<!-- *)?(?:#|//|/\\*+|<!--|--) *TODO(?:\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/|(?= *(?:[^:]//|/\\*+|<!--|@|--))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)))|(?: +[^@\\n]+)?))": [
+      {
+        "overviewRulerColor": "#ffcc00",
+        "backgroundColor": "#ffcc00",
+        "color": "#1f1f1f",
+        "fontWeight": "bold"
+      },
+      {
+        "backgroundColor": "#ffcc00",
+        "color": "#1f1f1f"
+      }
+    ],
+    "((?:<!-- *)?(?:#|//|/\\*+|<!--|--) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/|(?= *(?:[^:]//|/\\*+|<!--|@|--))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)))|(?: +[^@\\n]+)?))": [
+      {
+        "overviewRulerColor": "#cc0000",
+        "backgroundColor": "#cc0000",
+        "color": "#1f1f1f",
+        "fontWeight": "bold"
+      },
+      {
+        "backgroundColor": "#cc0000",
+        "color": "#1f1f1f"
+      }
+    ],
+    "((?:<!-- *)?(?:#|//|/\\*+|<!--|--) *(?:REVIEW|OPTIMIZE|TSC)(?:\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/|(?= *(?:[^:]//|/\\*+|<!--|@|--))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)))|(?: +[^@\\n]+)?))": [
+      {
+        "overviewRulerColor": "#00ccff",
+        "backgroundColor": "#00ccff",
+        "color": "#1f1f1f",
+        "fontWeight": "bold"
+      },
+      {
+        "backgroundColor": "#00ccff",
+        "color": "#1f1f1f"
+      }
+    ],
+    "((?:<!-- *)?(?:#|//|/\\*+|<!--|--) *(?:NOTE|IDEA)(?:\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/|(?= *(?:[^:]//|/\\*+|<!--|@|--))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)))|(?: +[^@\\n]+)?))": [
+      {
+        "overviewRulerColor": "#cc00cc",
+        "backgroundColor": "#cc00cc",
+        "color": "#1f1f1f",
+        "fontWeight": "bold"
+      },
+      {
+        "backgroundColor": "#cc00cc",
+        "color": "#1f1f1f"
+      }
+    ]
+  }
+}
