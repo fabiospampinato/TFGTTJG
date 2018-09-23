@@ -15,3 +15,9 @@ List of websites where you can find exercises.
 ### CSS
 
 //TODO
+
+### Solved Exercises
+
+I've solved some exercises for you, you can find them [here](https://github.com/fabiospampinato/TFGTTJG/tree/master/exercises).
+
+It's very important to read other people's code. Seeing how somebody would solve a problem is a very good way of learning.
