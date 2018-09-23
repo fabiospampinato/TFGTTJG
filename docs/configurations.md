@@ -28,7 +28,7 @@ I recommend [this](/config/zsh/.zshrc) configuration, which includes:
 - Good default settings
 - Some aliases
 - A plugin for debugging node scripts:
-  1. Press <kbd>ESC<kbd><kbd>ESC<kbd> and your command will be prefixed with `debugger `, press it again to remove it
+  1. Press <kbd>ESC</kbd><kbd>ESC</kbd> and your command will be prefixed with `debugger `, press it again to remove it
   2. Your script will start as normal, but you'll get a URL for opening the devtools
   3. Go to that URL and the devtools will open!
 - A nice prompt theme
